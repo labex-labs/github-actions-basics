@@ -6,7 +6,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      steps:
       - name: Safety Check
         run: echo " verifying that CI passed..."
 
